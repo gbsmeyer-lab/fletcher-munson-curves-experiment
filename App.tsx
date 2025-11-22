@@ -1,8 +1,8 @@
-import React, { useState, useEffect, useCallback } from 'react';
+import React, { useState, useEffect } from 'react';
 import InteractiveChart from './components/InteractiveChart';
 import { playTone, stopTone } from './utils/audio';
 import { getDbForFrequencyAndPhon, getPhonForFrequencyAndDb } from './utils/data';
-import { Play, Pause, Info, Volume2, AlertCircle, Brain, Activity, Lock, Unlock } from 'lucide-react';
+import { Play, Pause, Activity, Lock, Unlock } from 'lucide-react';
 
 const App: React.FC = () => {
   // State for the "Probe" - the user's current test point

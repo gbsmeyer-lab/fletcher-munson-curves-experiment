@@ -1,5 +1,4 @@
-
-import React, { useState, useRef, useCallback } from 'react';
+import React, { useState } from 'react';
 import {
   LineChart,
   Line,
@@ -8,12 +7,9 @@ import {
   CartesianGrid,
   Tooltip,
   ResponsiveContainer,
-  ReferenceLine,
-  ReferenceDot
+  ReferenceLine
 } from 'recharts';
 import { curveData, phons, colors } from '../utils/data';
-import { playTone, stopTone } from '../utils/audio';
-import { Volume2, VolumeX, Activity, BrainCircuit } from 'lucide-react';
 
 interface InteractiveChartProps {
   onPointSelect: (freq: number, db: number, nearestPhon: number) => void;
