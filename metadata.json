@@ -1,0 +1,5 @@
+{
+  "name": "Psychoacoustic Explorer",
+  "description": "An interactive visualization of the Fletcher-Munson Equal-Loudness Contours. Explore how human hearing sensitivity changes across the frequency spectrum with real-time audio synthesis and AI-powered insights.",
+  "requestFramePermissions": []
+}
